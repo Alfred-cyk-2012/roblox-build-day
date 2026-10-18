@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Roblox Build Day</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="faq-page">
+    <!-- Decorative elements -->
+    <div class="decoration lego-block lego-1"></div>
+    <div class="decoration lego-block lego-4"></div>
+    <div class="decoration roblox-stud stud-1"></div>
+    <div class="decoration roblox-stud stud-4"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="index.html" class="nav-logo">Roblox Build Day</a>
+        <div class="nav-links">
+            <a href="index.html" class="home-link">Home</a>
+            <a href="what-is-it.html">What is it?</a>
+            <a href="gear-up.html">Gear Up</a>
+            <a href="tutorials.html">Tutorials</a>
+            <a href="tips-and-tricks.html">Tips</a>
+            <a href="team-up.html">Team Up</a>
+            <a href="schedule.html">Schedule</a>
+            <a href="faq.html" class="active">FAQ</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="detail-hero">
+        <h1 class="detail-heading">FAQ</h1>
+        <p class="detail-subtitle">Got questions? We've got answers. If you don't see yours here, reach out on Discord!</p>
+    </section>
+
+    <!-- FAQ Accordion -->
+    <section class="faq-section">
+        <div class="faq-item">
+            <button class="faq-question" onclick="toggleFaq(this)">
+                <span>Who can participate in Roblox Build Day?</span>
+                <span class="faq-toggle">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>Anyone can participate! Whether you're a complete beginner or an experienced developer, Roblox Build Day is for you. All you need is a Roblox account and Roblox Studio installed. There are no age restrictions, but participants under 13 should have parental supervision.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question" onclick="toggleFaq(this)">
+                <span>Is it free to enter?</span>
+                <span class="faq-toggle">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>Yes! Roblox Build Day is completely free to enter. Roblox and Roblox Studio are both free tools. The only cost is your time and creativity.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question" onclick="toggleFaq(this)">
+                <span>How big can a team be?</span>
+                <span class="faq-toggle">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>Teams can have 1 to 4 members. We recommend 2–3 for the best balance of productivity and coordination. Solo entries are also welcome and completely valid!</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question" onclick="toggleFaq(this)">
+                <span>What happens if I can't find a team?</span>
+                <span class="faq-toggle">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>No worries! Join our Discord server before the event and use the #looking-for-team channel. We'll help match you with other solo builders who have complementary skills. You can also form teams on the day itself during the Team Formation Window.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question" onclick="toggleFaq(this)">
+                <span>Do I need to know how to code?</span>
+                <span class="faq-toggle">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>It helps, but it's not required! If you're a builder or designer, you can team up with a scripter. We also provide tutorials and mentors to help beginners get started with Lua during the event. Check out our Tutorials page to get a head start!</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question" onclick="toggleFaq(this)">
+                <span>What can I build? Are there restrictions?</span>
+                <span class="faq-toggle">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>You can build any type of Roblox experience — an obby, a tycoon, a story game, a simulator, etc. The only restrictions are: it must be built from scratch during the 24 hours (no pre-made assets or code), it must follow Roblox community standards, and it must be playable by judges when time is up.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question" onclick="toggleFaq(this)">
+                <span>Can I use free models or assets from the toolbox?</span>
+                <span class="faq-toggle">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>Yes! Roblox Toolbox assets (free models, sounds, images) are allowed. However, you cannot use pre-written scripts from the toolbox — all code must be written by your team during the build period. Custom-made assets are always encouraged over toolbox items.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question" onclick="toggleFaq(this)">
+                <span>How are winners decided?</span>
+                <span class="faq-toggle">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>Projects are judged by a panel of experienced Roblox developers and community figures based on four criteria: <strong>Creativity</strong> (originality of concept), <strong>Execution</strong> (how well it's built and scripted), <strong>Fun Factor</strong> (how enjoyable it is to play), and <strong>Polish</strong> (UI, sound, overall feel). There's also a People's Choice award voted on by all participants.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question" onclick="toggleFaq(this)">
+                <span>What are the prizes?</span>
+                <span class="faq-toggle">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>The total prize pool is <strong>$5,000</strong> distributed across multiple categories: 1st Place ($2,000), 2nd Place ($1,000), 3rd Place ($500), Most Creative ($500), People's Choice ($500), and Best Solo Builder ($500). All participants also receive an exclusive Roblox Build Day badge!</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question" onclick="toggleFaq(this)">
+                <span>Can I sleep during the 24 hours?</span>
+                <span class="faq-toggle">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>If it's an in-person event, we encourage you to rest when needed — there will be quiet zones available. If it's virtual, manage your time however you like! The key is that your game must be submitted and playable by the deadline. Team members can take shifts if needed.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question" onclick="toggleFaq(this)">
+                <span>What if my game isn't finished in time?</span>
+                <span class="faq-toggle">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>That's okay! Submit whatever you have by the deadline. A working prototype with a core gameplay loop is much better than an ambitious game that crashes. Judges appreciate polish and completeness over scope. You can always keep working on it after the event!</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question" onclick="toggleFaq(this)">
+                <span>Are mentors available the entire time?</span>
+                <span class="faq-toggle">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>Mentors are available during scheduled check-ins (typically every 3–4 hours) and are on-call via Discord for urgent questions throughout the build. They can help with debugging, design advice, and pointing you to the right documentation — but they won't write code for you!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Still have questions -->
+    <section class="faq-bottom">
+        <h2 class="faq-bottom-heading">Still Have Questions?</h2>
+        <p class="faq-bottom-text">Can't find what you're looking for? Join our Discord community and ask away — our team and fellow builders are happy to help!</p>
+        <a href="#" class="cta-button">Ask on Discord</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2026 Roblox Build Day. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        function toggleFaq(button) {
+            const item = button.parentElement;
+            const answer = item.querySelector('.faq-answer');
+            const toggle = button.querySelector('.faq-toggle');
+            const isOpen = item.classList.contains('open');
+
+            // Close all other items
+            document.querySelectorAll('.faq-item.open').forEach(openItem => {
+                if (openItem !== item) {
+                    openItem.classList.remove('open');
+                    openItem.querySelector('.faq-answer').style.maxHeight = '0';
+                    openItem.querySelector('.faq-toggle').textContent = '+';
+                }
+            });
+
+            // Toggle current item
+            if (isOpen) {
+                item.classList.remove('open');
+                answer.style.maxHeight = '0';
+                toggle.textContent = '+';
+            } else {
+                item.classList.add('open');
+                answer.style.maxHeight = answer.scrollHeight + 'px';
+                toggle.textContent = '−';
+            }
+        }
+    </script>
+</body>
+</html>

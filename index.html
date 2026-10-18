@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roblox Build Day</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="home-page">
+    <!-- Lego/Roblox decorative elements -->
+    <div class="decoration lego-block lego-1"></div>
+    <div class="decoration lego-block lego-2"></div>
+    <div class="decoration lego-block lego-3"></div>
+    <div class="decoration roblox-stud stud-1"></div>
+    <div class="decoration roblox-stud stud-2"></div>
+    <div class="decoration roblox-stud stud-3"></div>
+    <div class="decoration roblox-stud stud-4"></div>
+    <div class="decoration lego-block lego-4"></div>
+    <div class="decoration lego-block lego-5"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="index.html" class="nav-logo">Roblox Build Day</a>
+        <div class="nav-links">
+            <a href="what-is-it.html">What is it?</a>
+            <a href="gear-up.html">Gear Up</a>
+            <a href="tutorials.html">Tutorials</a>
+            <a href="tips-and-tricks.html">Tips</a>
+            <a href="team-up.html">Team Up</a>
+            <a href="schedule.html">Schedule</a>
+            <a href="faq.html">FAQ</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1 class="hero-title">Roblox Build Day</h1>
+        <div class="hero-text">
+            <p class="hero-line">You play other people's games.</p>
+            <p class="hero-line">Do you want <span class="highlight">YOUR</span> game to be played?</p>
+        </div>
+    </section>
+
+    <!-- Countdown Section -->
+    <section class="countdown-section">
+        <h2 class="countdown-label">The Build Day Starts In</h2>
+        <div class="countdown" id="countdown">
+            <div class="countdown-unit">
+                <span class="countdown-num" id="cd-days">00</span>
+                <span class="countdown-text">Days</span>
+            </div>
+            <div class="countdown-unit">
+                <span class="countdown-num" id="cd-hours">00</span>
+                <span class="countdown-text">Hours</span>
+            </div>
+            <div class="countdown-unit">
+                <span class="countdown-num" id="cd-mins">00</span>
+                <span class="countdown-text">Minutes</span>
+            </div>
+            <div class="countdown-unit">
+                <span class="countdown-num" id="cd-secs">00</span>
+                <span class="countdown-text">Seconds</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Phrases/Testimonials Section -->
+    <section class="phrases-section">
+        <h2 class="section-title">What Builders Are Saying</h2>
+        <div class="phrases-container">
+            <div class="phrases-track">
+                <div class="phrase-card">
+                    <p class="phrase-text">"I'm just thrilled to see people finding joy because of my game!"</p>
+                    <p class="phrase-author">— Kayla</p>
+                </div>
+                <div class="phrase-card">
+                    <p class="phrase-text">"Building this in 24 hours was the most exciting challenge of my life!"</p>
+                    <p class="phrase-author">— Marcus</p>
+                </div>
+                <div class="phrase-card">
+                    <p class="phrase-text">"I never thought my game could get this many players. It's unreal!"</p>
+                    <p class="phrase-author">— Sophie</p>
+                </div>
+                <div class="phrase-card">
+                    <p class="phrase-text">"The community energy during the build was absolutely electric."</p>
+                    <p class="phrase-author">— Jake</p>
+                </div>
+                <div class="phrase-card">
+                    <p class="phrase-text">"My friends and I built it together — best team experience ever!"</p>
+                    <p class="phrase-author">— Emma</p>
+                </div>
+                <div class="phrase-card">
+                    <p class="phrase-text">"Seeing strangers play something I created... there's nothing like it."</p>
+                    <p class="phrase-author">— Tyler</p>
+                </div>
+                <div class="phrase-card">
+                    <p class="phrase-text">"I learned Lua in a day and shipped a whole game. Mind-blowing!"</p>
+                    <p class="phrase-author">— Aisha</p>
+                </div>
+                <div class="phrase-card">
+                    <p class="phrase-text">"The prize was nice, but the fans are what I'm really here for."</p>
+                    <p class="phrase-author">— Devon</p>
+                </div>
+                <div class="phrase-card">
+                    <p class="phrase-text">"This event changed how I think about game design forever."</p>
+                    <p class="phrase-author">— Lily</p>
+                </div>
+                <div class="phrase-card">
+                    <p class="phrase-text">"44 million potential players? That's a stage worth building for!"</p>
+                    <p class="phrase-author">— Noah</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Boxes Section -->
+    <section class="boxes-section">
+        <div class="info-box" onclick="window.location.href='what-is-it.html'">
+            <div class="box-icon">?</div>
+            <h3 class="box-title">What is it?</h3>
+            <p class="box-desc">Learn about the event that brings millions of builders together.</p>
+            <span class="box-link">Learn More →</span>
+        </div>
+        <div class="info-box gear-up-box" onclick="window.location.href='gear-up.html'">
+            <div class="box-icon">⚙</div>
+            <h3 class="box-title">Gear Up</h3>
+            <p class="box-desc">Get everything ready before the big day. Setup your account and tools!</p>
+            <span class="box-link">Get Ready →</span>
+        </div>
+        <div class="info-box tutorials-box" onclick="window.location.href='tutorials.html'">
+            <div class="box-icon">📘</div>
+            <h3 class="box-title">Tutorials</h3>
+            <p class="box-desc">Learn Lua step by step and go from zero to building your own game.</p>
+            <span class="box-link">Start Learning →</span>
+        </div>
+        <div class="info-box tips-box" onclick="window.location.href='tips-and-tricks.html'">
+            <div class="box-icon">💡</div>
+            <h3 class="box-title">Tips & Tricks</h3>
+            <p class="box-desc">Quick shortcuts to code smarter and save precious build time.</p>
+            <span class="box-link">Get Tips →</span>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section class="register-section">
+        <h2 class="register-heading">Ready to Build?</h2>
+        <p class="register-text">Don't miss out! Secure your spot now and start preparing for the biggest build event of the year.</p>
+        <a href="#" class="register-button">Register Now</a>
+        <p class="register-note">Free entry • Teams of 1–4 • All skill levels welcome</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2026 Roblox Build Day. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
